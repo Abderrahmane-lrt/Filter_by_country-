@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>System DDL</title>
+    <style>
+        .container {
+            height: 100vh;
+            overflow-y: hidden;
+        }
+
+        .container video {
+            position: absolute;
+            z-index: -1;
+            inset: 0 0 0 0 ;
+            width: 100%;
+        }
+
+        .container .cover {
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.279);
+            inset: 0 0 0 0;
+            backdrop-filter: blur(5px);
+            z-index: -1;
+        }
+        .home{
+            margin-top: 160px;
+            text-align: center;
+            line-height: 1.8;
+
+        }
+        .home h1{
+            font-size: 3em;
+        }
+        .home p{
+
+            font-size: 20px;
+
+        }
+        .home a{
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            padding: 15px 100px;
+            margin-top: 40px;
+            border-radius: 10px;
+            font-weight:700 ;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="container  ">
+        <video autoplay loop muted playsinline>
+            <source src="../vid/back-vid.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="cover"></div>
+
+        <div class="home ">
+            <h1 class="text-indigo-700">Discover the World One Nation at a Time</h1>
+            <p>Welcome to Explore Countries, your ultimate guide to discovering the beauty, culture, and uniqueness of
+                every nation around the world. </p>
+            <a href="country.php" class="bg-indigo-500 hover:bg-indigo-300 " >Get Started</a>
+        </div>
+
+    </div>
+</body>
+
+</html>

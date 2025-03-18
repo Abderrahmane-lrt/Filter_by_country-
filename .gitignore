@@ -1,0 +1,20 @@
+# ملفات البيئة
+.env
+
+# مجلدات الإضافات
+/vendor/
+/node_modules/
+
+# ملفات السجل
+*.log
+
+# ملفات IDE مثل VSCode أو PHPStorm
+.vscode/
+.idea/
+
+# ملفات النظام مثل .DS_Store (على macOS)
+.DS_Store
+
+# ملفات الخرج المؤقتة (مثل ملفات الترجمة أو بناء المشروع)
+*.cache
+*.tmp
