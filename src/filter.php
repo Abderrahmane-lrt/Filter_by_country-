@@ -1,7 +1,5 @@
 <?php 
 require "../config/connect.php";
-
-// جلب قائمة الدول
 $query = "SELECT * FROM country";
 $stmt = $con->prepare($query);
 $stmt->execute();
